@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6c67b4e6-6123-4b66-a8d6-a4fc967e7ff5")
+	(paper "A4")
+	(title_block
+		(title "ЮТ-88 mainboard")
+		(date "2024-09-13")
+		(rev "1.0")
+		(company "Eugene Chertikhin")
+	)
+	(lib_symbols)
+	(sheet
+		(at 69.85 17.78)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c5a9c35-699b-4795-bc63-d08266ae0ecf")
+		(property "Sheetname" "other"
+			(at 69.85 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tape.kicad_sch"
+			(at 69.85 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/6c67b4e6-6123-4b66-a8d6-a4fc967e7ff5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 17.78)
+		(size 15.24 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3e37481-25dd-4836-9c16-bb89cdab42c6")
+		(property "Sheetname" "cpu"
+			(at 19.05 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 19.05 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/6c67b4e6-6123-4b66-a8d6-a4fc967e7ff5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 19.05)
+		(size 12.7 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f64dfa08-e9b1-46fb-8a65-3324d6a954d7")
+		(property "Sheetname" "display"
+			(at 43.18 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 43.18 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/6c67b4e6-6123-4b66-a8d6-a4fc967e7ff5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
