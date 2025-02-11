@@ -384,20 +384,12 @@
   },
   "sheets": [
     [
-      "6c67b4e6-6123-4b66-a8d6-a4fc967e7ff5",
+      "803fc95f-75de-418e-a6c4-4116c793e524",
       "Root"
     ],
     [
-      "d3e37481-25dd-4836-9c16-bb89cdab42c6",
+      "21eade33-5129-4194-a9c9-cb7e4279a185",
       "cpu"
-    ],
-    [
-      "3c5a9c35-699b-4795-bc63-d08266ae0ecf",
-      "other"
-    ],
-    [
-      "f64dfa08-e9b1-46fb-8a65-3324d6a954d7",
-      "display"
     ]
   ],
   "text_variables": {}
