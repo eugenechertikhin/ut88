@@ -6575,6 +6575,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 149.86) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d07b5b-d69c-4471-baf0-b2e74cb8a4f7")
+	)
+	(wire
+		(pts
 			(xy 54.61 113.03) (xy 54.61 120.65)
 		)
 		(stroke
@@ -8235,7 +8245,7 @@
 	)
 	(global_label "A11"
 		(shape input)
-		(at 147.32 149.86 180)
+		(at 147.32 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8245,7 +8255,7 @@
 		)
 		(uuid "45af2235-eacc-4fa6-b5b1-00175f384f5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.8272 149.86 0)
+			(at 140.8272 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10313,7 @@
 	)
 	(global_label "{slash}F000h"
 		(shape input)
-		(at 162.56 154.94 180)
+		(at 162.56 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10313,7 +10323,7 @@
 		)
 		(uuid "f02b4151-eb21-42f4-a696-e81239292c76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.3782 154.94 0)
+			(at 152.3782 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,6 +10823,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 34.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57355984-ab89-42d4-8f09-ea2263779866")
 		)
@@ -10911,7 +10930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "K155TM2 (7474)"
+		(property "Value" "K155ТМ2"
 			(at 169.8341 124.46 0)
 			(effects
 				(font
@@ -10930,7 +10949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 167.64 132.08 0)
 			(effects
 				(font
@@ -10940,6 +10959,15 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7474"
 			(at 167.64 132.08 0)
 			(effects
 				(font
@@ -11052,6 +11080,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0951ea7a-b98e-4f13-956c-5856cb9cf2d6")
 		)
@@ -11149,7 +11186,7 @@
 				)
 			)
 		)
-		(property "Value" "K155TM2 (7474)"
+		(property "Value" "K155ТМ2"
 			(at 33.782 146.05 90)
 			(effects
 				(font
@@ -11157,7 +11194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 29.21 152.4 0)
 			(effects
 				(font
@@ -11166,7 +11203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 29.21 152.4 0)
 			(effects
 				(font
@@ -11176,6 +11213,15 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 29.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7474"
 			(at 29.21 152.4 0)
 			(effects
 				(font
@@ -11252,7 +11298,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 92.71 145.796 90)
 			(effects
 				(font
@@ -11260,7 +11306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -11269,7 +11315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -11279,6 +11325,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -11550,7 +11605,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 93.218 131.826 90)
 			(effects
 				(font
@@ -11567,7 +11622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 87.63 138.43 0)
 			(effects
 				(font
@@ -11577,6 +11632,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 87.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 87.63 138.43 0)
 			(effects
 				(font
@@ -11882,6 +11946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 222.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "c6fe54c7-4eb3-4081-acba-1be520313853")
 		)
@@ -12104,6 +12177,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 254 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19e89bf3-a0dd-462e-bdb5-2b289356bfe2")
 		)
@@ -12172,6 +12254,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "257672e3-e4b2-4005-aa35-e9e4d4f994b0")
 		)
@@ -12204,7 +12295,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LA8 (7401)"
+		(property "Value" "K155ЛА8"
 			(at 63.246 146.05 90)
 			(effects
 				(font
@@ -12212,7 +12303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -12221,7 +12312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
+		(property "Datasheet" ""
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -12231,6 +12322,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7401"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -12341,6 +12441,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "92c80d0b-7caf-40d0-94ca-7829a2560a33")
 		)
@@ -12433,6 +12542,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 234.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4c108a9-cffd-418d-93af-a6777010c38a")
 		)
@@ -12484,7 +12602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 27.94 110.49 0)
 			(effects
 				(font
@@ -12494,6 +12612,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 27.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 27.94 110.49 0)
 			(effects
 				(font
@@ -12649,7 +12776,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 170.18 152.4 0)
+		(at 170.18 149.86 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12657,15 +12784,15 @@
 		(dnp no)
 		(uuid "4b9a795e-4355-4df3-a911-9e1b17798eef")
 		(property "Reference" "U24"
-			(at 170.18 151.892 0)
+			(at 170.18 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "K155LL1 (7432)"
-			(at 170.18 146.05 0)
+		(property "Value" "K155ЛЛ1"
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +12801,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 170.18 152.4 0)
+			(at 170.18 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12682,8 +12809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 170.18 152.4 0)
+		(property "Datasheet" ""
+			(at 170.18 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12692,7 +12819,16 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 170.18 152.4 0)
+			(at 170.18 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7432"
+			(at 170.18 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,7 +12988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 120.65 0)
 			(effects
 				(font
@@ -12862,6 +12998,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 190.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 190.5 120.65 0)
 			(effects
 				(font
@@ -12902,7 +13047,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LL1 (7432)"
+		(property "Value" "K155ЛЛ1"
 			(at 120.904 132.08 90)
 			(effects
 				(font
@@ -12919,7 +13064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 115.57 138.43 0)
 			(effects
 				(font
@@ -12929,6 +13074,15 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7432"
 			(at 115.57 138.43 0)
 			(effects
 				(font
@@ -13005,7 +13159,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LL1 (7432)"
+		(property "Value" "K155ЛЛ1"
 			(at 184.15 105.41 0)
 			(effects
 				(font
@@ -13023,7 +13177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 184.15 111.76 0)
 			(effects
 				(font
@@ -13033,6 +13187,15 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7432"
 			(at 184.15 111.76 0)
 			(effects
 				(font
@@ -13109,7 +13272,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LL1 (7432)"
+		(property "Value" "K155ЛЛ1"
 			(at 185.42 143.51 0)
 			(effects
 				(font
@@ -13127,7 +13290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 185.42 149.86 0)
 			(effects
 				(font
@@ -13137,6 +13300,15 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
+			(at 185.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7432"
 			(at 185.42 149.86 0)
 			(effects
 				(font
@@ -13312,6 +13484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "28355f4d-ac59-4c3f-a445-480e95334b27")
 		)
@@ -13404,6 +13585,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 254 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67f7af5b-63e4-4ac2-ba16-de347f7786bd")
 		)
@@ -13437,7 +13627,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LA8 (7401)"
+		(property "Value" "K155ЛА8"
 			(at 30.4717 166.37 0)
 			(effects
 				(font
@@ -13445,7 +13635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 30.48 172.72 0)
 			(effects
 				(font
@@ -13454,7 +13644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
+		(property "Datasheet" ""
 			(at 30.48 172.72 0)
 			(effects
 				(font
@@ -13464,6 +13654,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7401"
 			(at 30.48 172.72 0)
 			(effects
 				(font
@@ -13606,7 +13805,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 86.36 166.37 0)
 			(effects
 				(font
@@ -13614,7 +13813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 86.36 172.72 0)
 			(effects
 				(font
@@ -13623,7 +13822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 86.36 172.72 0)
 			(effects
 				(font
@@ -13633,6 +13832,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 86.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 86.36 172.72 0)
 			(effects
 				(font
@@ -13735,6 +13943,15 @@
 			)
 		)
 		(property "Description" "7 segments display, 10 pin, Common Cathode, High Efficiency Red"
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 107.95 26.67 0)
 			(effects
 				(font
@@ -14095,6 +14312,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c86b815-a225-40c8-908c-933da72e7c74")
 		)
@@ -14128,7 +14354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KR556RT4"
+		(property "Value" "KR556РТ4"
 			(at 75.8541 49.53 0)
 			(effects
 				(font
@@ -14156,6 +14382,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 73.66 49.53 0)
 			(effects
 				(font
@@ -14337,6 +14572,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "4d0c0e3c-9eed-47bc-9051-1cd36ab5548b")
 		)
@@ -14393,7 +14637,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LE4 (7427)"
+		(property "Value" "K155ЛЕ4"
 			(at 64.516 131.826 90)
 			(effects
 				(font
@@ -14401,7 +14645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 58.42 138.43 0)
 			(effects
 				(font
@@ -14410,7 +14654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS27"
+		(property "Datasheet" ""
 			(at 58.42 138.43 0)
 			(effects
 				(font
@@ -14420,6 +14664,15 @@
 			)
 		)
 		(property "Description" "Triple 3-input NOR"
+			(at 58.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7427"
 			(at 58.42 138.43 0)
 			(effects
 				(font
@@ -14496,7 +14749,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 27.94 96.52 0)
 			(effects
 				(font
@@ -14514,7 +14767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 27.94 102.87 0)
 			(effects
 				(font
@@ -14524,6 +14777,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 27.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 27.94 102.87 0)
 			(effects
 				(font
@@ -14701,6 +14963,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a13f0a82-5375-4733-b65a-9838672b79b0")
 		)
@@ -14734,7 +15005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "K555IR26 (74LS670)"
+		(property "Value" "K555ИР26"
 			(at 159.6741 48.26 0)
 			(effects
 				(font
@@ -14762,6 +15033,15 @@
 			)
 		)
 		(property "Description" "4 x 4 Register Files 3-State Outputs"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "74LS670"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -14845,7 +15125,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 67.31 166.37 0)
 			(effects
 				(font
@@ -14862,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 67.31 172.72 0)
 			(effects
 				(font
@@ -14872,6 +15152,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 67.31 172.72 0)
 			(effects
 				(font
@@ -14984,6 +15273,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c60ef9fb-daf5-4360-96a1-d5e7a9146b62")
 		)
@@ -15052,6 +15350,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "85c198e3-b327-4948-bea0-cecaf8a28131")
 		)
@@ -15085,7 +15392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "K555IR26 (74LS670)"
+		(property "Value" "K555ИР26"
 			(at 199.0441 48.26 0)
 			(effects
 				(font
@@ -15113,6 +15420,15 @@
 			)
 		)
 		(property "Description" "4 x 4 Register Files 3-State Outputs"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "74LS670"
 			(at 196.85 66.04 0)
 			(effects
 				(font
@@ -15362,6 +15678,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3e899146-6d44-49ad-99b2-d9795bd6a666")
 		)
@@ -15394,7 +15719,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 200.66 143.51 0)
 			(effects
 				(font
@@ -15403,7 +15728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -15412,7 +15737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -15422,6 +15747,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -15499,7 +15833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "K155TM2 (7474)"
+		(property "Value" "K155ТМ2"
 			(at 169.8341 104.14 0)
 			(effects
 				(font
@@ -15518,7 +15852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 167.64 111.76 0)
 			(effects
 				(font
@@ -15528,6 +15862,15 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7474"
 			(at 167.64 111.76 0)
 			(effects
 				(font
@@ -15735,7 +16078,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LA8 (7401)"
+		(property "Value" "K155ЛА8"
 			(at 48.2517 166.37 0)
 			(effects
 				(font
@@ -15743,7 +16086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 48.26 172.72 0)
 			(effects
 				(font
@@ -15752,7 +16095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
+		(property "Datasheet" ""
 			(at 48.26 172.72 0)
 			(effects
 				(font
@@ -15762,6 +16105,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
+			(at 48.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7401"
 			(at 48.26 172.72 0)
 			(effects
 				(font
@@ -15838,7 +16190,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LL1 (7432)"
+		(property "Value" "K155ЛЛ1"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -15856,7 +16208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 147.32 111.76 0)
 			(effects
 				(font
@@ -15866,6 +16218,15 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7432"
 			(at 147.32 111.76 0)
 			(effects
 				(font
@@ -15970,6 +16331,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 254 97.79 0)
 			(effects
 				(font
@@ -16177,6 +16547,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "877079a5-e386-4f68-993e-e6dd6d14ebf9")
 		)
@@ -16237,6 +16616,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 234.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 234.95 116.84 0)
 			(effects
 				(font
@@ -16343,7 +16731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "K155IE5 (7493)"
+		(property "Value" "K155ИЕ5"
 			(at 69.5041 97.79 0)
 			(effects
 				(font
@@ -16353,7 +16741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 67.31 107.95 0)
 			(effects
 				(font
@@ -16362,7 +16750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS93"
+		(property "Datasheet" ""
 			(at 67.31 107.95 0)
 			(effects
 				(font
@@ -16372,6 +16760,15 @@
 			)
 		)
 		(property "Description" "Divide by 2 & 8 counter"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7493"
 			(at 67.31 107.95 0)
 			(effects
 				(font
@@ -16616,7 +17013,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 154.94 149.86 0)
+		(at 154.94 147.32 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16624,24 +17021,15 @@
 		(dnp no)
 		(uuid "d1d73b79-65d3-42c5-9267-bf94a1066950")
 		(property "Reference" "U9"
-			(at 153.67 149.86 0)
+			(at 153.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
-			(at 154.94 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 154.94 149.86 0)
+		(property "Value" "K155ЛН1"
+			(at 154.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16649,8 +17037,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 154.94 149.86 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
+			(at 154.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16659,7 +17056,16 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 154.94 149.86 0)
+			(at 154.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16765,6 +17171,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 113.03 46.99 0)
 			(effects
 				(font
@@ -16880,6 +17295,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "961d9295-6e5a-4976-8935-227da2aede7c")
 		)
@@ -16912,7 +17336,7 @@
 				)
 			)
 		)
-		(property "Value" "K155TM2 (7474)"
+		(property "Value" "K155ТМ2"
 			(at 121.158 146.05 90)
 			(effects
 				(font
@@ -16929,7 +17353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 115.57 152.4 0)
 			(effects
 				(font
@@ -16939,6 +17363,15 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 115.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7474"
 			(at 115.57 152.4 0)
 			(effects
 				(font
@@ -17034,7 +17467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -17044,6 +17477,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -17120,6 +17562,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 254 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc76557e-f024-4c89-974c-2e76fd880408")
 		)
@@ -17188,6 +17639,15 @@
 				(hide yes)
 			)
 		)
+		(property "Analog" ""
+			(at 234.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36e19063-df22-4202-ae09-30c9ead1d17d")
 		)
@@ -17220,7 +17680,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 30.48 128.27 0)
 			(effects
 				(font
@@ -17229,7 +17689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 30.48 121.92 0)
 			(effects
 				(font
@@ -17238,7 +17698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 30.48 121.92 0)
 			(effects
 				(font
@@ -17248,6 +17708,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 30.48 121.92 0)
 			(effects
 				(font
@@ -17325,7 +17794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "K155ID4 (74LS155)"
+		(property "Value" "K155ИД4"
 			(at 243.4941 48.26 0)
 			(effects
 				(font
@@ -17343,7 +17812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS155"
+		(property "Datasheet" ""
 			(at 241.3 63.5 0)
 			(effects
 				(font
@@ -17353,6 +17822,15 @@
 			)
 		)
 		(property "Description" "Dual 2 to 4 lines Decoder/Demultiplexer"
+			(at 241.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "74155"
 			(at 241.3 63.5 0)
 			(effects
 				(font
@@ -17435,7 +17913,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LN1 (7404)"
+		(property "Value" "K155ЛН1"
 			(at 43.18 96.52 0)
 			(effects
 				(font
@@ -17453,7 +17931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -17463,6 +17941,15 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7404"
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -17539,7 +18026,7 @@
 				)
 			)
 		)
-		(property "Value" "K155LA8 (7401)"
+		(property "Value" "K155ЛА8"
 			(at 35.56 131.826 90)
 			(effects
 				(font
@@ -17547,7 +18034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 29.21 138.43 0)
 			(effects
 				(font
@@ -17556,7 +18043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf"
+		(property "Datasheet" ""
 			(at 29.21 138.43 0)
 			(effects
 				(font
@@ -17566,6 +18053,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate, open collector outputs NRND"
+			(at 29.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" "7401"
 			(at 29.21 138.43 0)
 			(effects
 				(font
@@ -17643,7 +18139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KR556RT4"
+		(property "Value" "KR556РТ4"
 			(at 37.7541 49.53 0)
 			(effects
 				(font
@@ -17671,6 +18167,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 35.56 49.53 0)
 			(effects
 				(font
@@ -17780,6 +18285,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 182.88 124.46 0)
 			(effects
 				(font
@@ -17976,6 +18490,15 @@
 			)
 		)
 		(property "Description" "7 segments display, 10 pin, Common Cathode, High Efficiency Red"
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Analog" ""
 			(at 146.05 26.67 0)
 			(effects
 				(font
